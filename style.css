@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Orbitron',sans-serif;
+background:#050816;
+color:white;
+overflow-x:hidden;
+}
+
+.particles{
+position:fixed;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle at 20% 20%, #00ffcc33 2px, transparent 2px),
+radial-gradient(circle at 80% 60%, #00aaff33 2px, transparent 2px);
+background-size:100px 100px;
+z-index:-1;
+}
+
+header{
+text-align:center;
+padding:50px 20px;
+}
+
+header h1{
+font-size:4rem;
+color:#00e5ff;
+text-shadow:0 0 20px #00e5ff;
+}
+
+header p{
+color:#8bd3ff;
+margin-top:10px;
+}
+
+.hero{
+text-align:center;
+padding:60px 10%;
+}
+
+.hero h2{
+font-size:2.3rem;
+color:#00ff88;
+margin-bottom:20px;
+text-shadow:0 0 15px #00ff88;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+line-height:1.8;
+color:#c7e8ff;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+border:none;
+border-radius:50px;
+font-size:1rem;
+cursor:pointer;
+background:linear-gradient(90deg,#00e5ff,#00ff88);
+color:#04111f;
+font-weight:bold;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+box-shadow:0 0 25px #00ff88;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+padding:40px;
+}
+
+.card{
+width:280px;
+padding:25px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+border:1px solid #00e5ff55;
+border-radius:20px;
+text-align:center;
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px #00e5ff55;
+}
+
+.card span{
+font-size:3rem;
+}
+
+.card h3{
+margin:15px 0;
+color:#00ff88;
+}
+
+.content{
+padding:50px 10%;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.box{
+padding:25px;
+background:#091325;
+border-left:5px solid #00ff88;
+border-radius:15px;
+}
+
+.box h2{
+color:#00e5ff;
+margin-bottom:15px;
+}
+
+.box p{
+color:#d7ebff;
+line-height:1.8;
+}
+
+.motivation{
+text-align:center;
+padding:70px 20px;
+}
+
+.motivation h2{
+color:#00ff88;
+margin-bottom:20px;
+}
+
+#frase{
+font-size:1.2rem;
+color:#ffffff;
+max-width:800px;
+margin:auto;
+}
+
+footer{
+padding:25px;
+text-align:center;
+background:#02050d;
+border-top:1px solid #00e5ff33;
+color:#7fb6d9;
+}
